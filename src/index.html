@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tools-app</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <a href="#" class="header_logo-link">
+                    <div class="header_logo">
+                        <img src="./img/header/logo.svg" alt="logo" class="logo">
+                        <p class="header_logo-descr">магазин инструмента</p>
+                    </div>
+                </a>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header_main">
+                    <div class="header_nav">
+                        <ul class="nav_menu">
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">Каталог инструментов</li>
+                            </a>
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">Все для сада</li>
+                            </a>
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">Ручной интрумент</li>
+                            </a>
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">Электрика</li>
+                            </a>
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">Доставка</li>
+                            </a>
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">Оплата</li>
+                            </a>
+                            <a href="#" class="nav_link">
+                                <li class="subtitle">О нас</li>
+                            </a>
+                        </ul>
+                        <div class="header_login">
+                            <a href="" class="header_link subtitle">Вход</a>
+                            <div class="divider"></div>
+                            <a href="" class="header_link subtitle">Регистрация</a>
+                        </div>
+                    </div>
+                    <div class="header_info">
+                        <div class="banner"></div>
+                        <ul class="user_info">
+                            <a href="" class="user_link">
+                                <li class="user_info-item subtitle"> <img src="./img/header/cart.svg" alt="cart"> 3 шт.
+                                    / 17 250 р.</li>
+                            </a>
+                            <a href="" class="user_link">
+                                <li class="user_info-item subtitle"> <img src="./img/header/star.svg" alt="star">
+                                    Избранное (7)</li>
+                            </a>
+                            <a href="" class="user_link">
+                                <li class="user_info-item subtitle"><img src="./img/header/balance.svg" alt="balance">К
+                                    сравнению (5)</li>
+                            </a>
+                        </ul>
+                        <ul class="header_info-products">
+                            <img src="./img/header/product1.png" alt="product" class="header_info-img">
+                            <img src="./img/header/product2.png" alt="product" class="header_info-img">
+                            <img src="./img/header/product3.png" alt="product" class="header_info-img">
+                        </ul>
+                        <div class="contacts">
+                            <div class="time_work">
+                                <p class="time_work-title title_fz12">Время работы:</p>
+                                <p class="time_work-descr subtitle subtitle_025em">10:00 — 19:00</p>
+                            </div>
+                            <a href="tel:84957212525" class="contacts_number title_fz25">8 495 721-25-25</a>
+                            <div class="location">
+                                <p class="city subtitle">Москва</p>
+                                <form action="№" method="post">
+                                    <select name="location" id="location">
+                                        <option selected>сменить</option>
+                                        <option value="Казань">Казань</option>
+                                        <option value="Новгород">Новгород</option>
+                                        <option value="Санк-Петербург">Санк-Петербург</option>
+                                        <option value="Екатеринбург">Екатеринбург</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main_wrapper">
+                <div class="main_filter">
+                    <img src="./img/header/search.svg" class="filter_search" alt="search"></img>
+                    <ul class="filter_list">
+                        <li class="filter_item title title_wc active" data-tab="Puncher">Перфораторы</li>
+                        <li class="filter_item title title_wc" data-tab="Drill">Дрели</li>
+                        <li class="filter_item title title_wc" data-tab="GrindingMachine">Шлифмашины</li>
+                        <li class="filter_item title title_wc" data-tab="Pistol">Пистолеты</li>
+                        <li class="filter_item title title_wc" data-tab="ElectricSaw">Электропилы</li>
+                        <li class="filter_item title title_wc" data-tab="ToolKit">Наборы инструментов</li>
+                        <li class="filter_item title title_wc" data-tab="Acccesuarie">Акксесуары</li>
+                    </ul>
+                    <div class="filter_sale title title_wc">Распродажа</div>
+                </div>
+            </div>
+            <div class="filter_item-content active" data-tab="Puncher">
+                <a href="#" class="filter_item-link">Перфораторы</a>
+            </div>
+            <div class="filter_item-content" data-tab="Drill">
+                <a href="#" class="filter_item-link">Дрели</a>
+            </div>
+            <div class="filter_item-content" data-tab="GrindingMachine">
+                <a href="#" class="filter_item-link">Шлифмашины</a>
+            </div>
+            <div class="filter_item-content" data-tab="Pistol">
+                <a href="#" class="filter_item-link">Пистолеты</a>
+            </div>
+            <div class="filter_item-content" data-tab="ElectricSaw">
+                <a href="#" class="filter_item-link">Электропилы</a>
+            </div>
+            <div class="filter_item-content" data-tab="ToolKit">
+                <a href="#" class=filter_item-_link">Наборы инструментов</a>
+            </div>
+            <div class="filter_item-content" data-tab="Acccesuarie">
+                <a href="#" class="filter_item-link">Акксесуары</a>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
