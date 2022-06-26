@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
           mainMenu = document.querySelector('.header_main');
 
     burger.addEventListener('click', function() {
-        console.log(1)
         burger.classList.toggle('active')
         mainMenu.classList.toggle('active')
     })
